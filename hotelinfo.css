@@ -1,0 +1,153 @@
+a{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.responsive{
+    width:100%;
+    height:700px;
+}
+.homeimg{
+    /* max-height:770px; */
+    height:auto;
+    width:100%;
+}
+.form-control{
+    border-radius: 30px;
+}
+#navbarSupportedContent{
+    width:100%;
+    text-align: center;
+}
+.d-flex{
+    display: inline-block;
+    margin: 0 auto;
+}
+.btn{
+    border-radius: 30px;
+    
+}
+#signin{
+margin-left: 15px;
+}
+.navbar-brand{
+    font-size:30px;
+    margin-left: 30px;
+    font-weight: var(--tl-font-weight, 800) !important;
+
+}
+img{
+    border-radius: 20px;
+}
+.maininfodiv{
+    display: grid;
+    position:relative;
+    margin-top: 150px;
+    padding-left: 80px;
+    padding-right:80px;
+}
+.hotelnamespan{
+        display: block;
+        font-size: 32px;
+        font-weight: 400;
+        box-sizing: border-box;
+
+}
+.hotelimg{
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(4,1fr);
+    box-sizing: border-box;
+    height:35vh;
+    width:30vw;
+}
+.hotelimgdiv{
+    display: flex;
+    box-sizing: border-box;
+
+}
+.livemaindiv{
+    box-sizing: border-box;
+    display: block;
+    text-decoration: none;
+    position: relative;
+}
+.liveanywere{
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 20px;
+    text-decoration: none;
+    height:auto;
+    /* add flex box style */
+    display:grid;
+    grid-auto-flow: row;
+    align-items: center;
+    padding-left: 80px;
+    padding-right:80px;
+    grid-template-columns: repeat(4,1fr);
+}
+.liveanywereimg{
+    box-sizing: border-box;
+    
+}
+.liveimglink{
+    -webkit-box-align: center !important;
+    font-size: 22px !important;
+    line-height: 20px !important;
+    color: rgb(34, 34, 34) !important;
+    text-decoration: none;
+}
+.liveimg{
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+.liveimg01{
+    height:45vh;
+    width:30vw;
+    border-radius: 10px;
+    display: block;
+    margin-top: 30px;
+}
+.livename{
+    display:block;
+    text-align: left;
+    margin-top: 5px;
+    padding-left: 3px;
+}
+.hotelhost{
+    display: block;
+    font-size: 30px;
+    padding-top: 20px;
+
+}
+.hoteldetails{
+    display: block;
+    margin-top: 130px;
+}
+.hoteldetailsbefore{
+    width: 580px;
+}
+.aboutmain{
+    display:grid;
+    box-sizing: border-box;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(3,2fr);
+    padding-left: 80px;
+    padding-right:80px;
+    background-color: rgb(225, 225, 214);
+}
+.aboutchild{
+    margin-top: 50px;
+    background-color: rgb(225, 225, 214);
+
+}
+h3{
+    background-color: rgb(225, 225, 214);
+
+}
+.aboutlink{
+    text-decoration: none;
+    margin-top: 20px;
+    display: block;
+    color:black;
+    background-color: rgb(225, 225, 214);
+}

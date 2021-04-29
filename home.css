@@ -5,6 +5,9 @@
 a{
     margin-top: 20px;
     margin-bottom: 20px;
+}a{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .responsive{
     width:100%;
@@ -28,6 +31,7 @@ a{
 }
 .btn{
     border-radius: 30px;
+    
 }
 #signin{
 margin-left: 15px;
@@ -36,7 +40,6 @@ margin-left: 15px;
     font-size:30px;
     margin-left: 30px;
     font-weight: var(--tl-font-weight, 800) !important;
-    
 
 }
 .s1{
@@ -73,7 +76,7 @@ margin-left: 15px;
     height:auto;
     padding-left: 80px;
     padding-right:80px;
-    /* add flex box style */
+    /* add grid box style */
     display:grid;
     grid-auto-flow: row;
     align-items: center;
@@ -250,4 +253,148 @@ h3{
     display: block;
     color:black;
     background-color: rgb(225, 225, 214);
+}
+.navbar{
+    display: block;
+    position: relative;
+}
+.explorenearbypage{
+    display:grid;
+    box-sizing: border-box;
+    grid-auto-flow: row;
+    position: relative;
+    grid-template-columns: repeat(2,1fr);
+}
+.childexplorenearby{
+    display:grid;
+    box-sizing: border-box;
+    grid-auto-flow: row;
+    position: relative;
+    padding-left: 20px;
+    padding-right:20px;
+}
+.citycount{
+    margin-top: 40px;
+    display: block;
+    
+}
+.stayincity,.staycityname{
+    display: block;
+}
+.staycityname{
+    margin-bottom:10px;
+}
+.cityname01{
+    font-size: 42px;
+    font-weight: 800;
+}
+.staycityoption{
+    display: block;
+}
+hr{
+
+}
+.covid19{
+    margin-top: 15px;
+    display: block;
+}
+.explorenearbymaps{
+    display:block;
+    box-sizing: border-box; 
+}
+#carouselExampleDark{
+    display: block;
+    box-sizing: border-box;
+    height:18vh;
+    width:20vw;
+}
+.carousel-indicators{
+display: block;
+box-sizing: border-box;
+background-color: rgba(255, 255, 255,0);
+align-items: center;
+justify-content: center;
+position: absolute;
+margin:none;
+/* grid-auto-flow: row;
+grid-template-columns: repeat(3,1fr); */
+}
+.cityhotelelement{
+    align-items:center;
+    box-sizing: border-box;
+    display: flex;
+    margin-bottom: 40px;
+}
+.cityhotelbunch{
+    box-sizing: border-box;
+    width:100%;
+    position: relative;
+    height:auto;
+    /* add grid box style */
+    display:grid;
+    grid-auto-flow: row;
+    align-items: center;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.d-block{
+    display: block;
+    height:25vh;
+    width:20vw;
+    box-sizing: border-box;
+}
+.imgspan{
+    border-radius:30px;
+    display: block;
+    height:25vh;
+    width: 20vw;
+}
+.hotelink{
+    border-radius: 30px;
+    display: block;
+    position: relative;
+}
+.hotelimgdiv{
+    display: block;
+    height:25vh;
+    width: 20vw;
+}
+.hotelroomincity{
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+}
+.cityhotels{
+    display: block;
+}
+.hotelincity{
+    display: block;
+    box-sizing: border-box;
+}
+.hotelname{
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: block;
+
+}
+.hoteldetails{
+    font-size: 16px;
+    display: block;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.spantext{
+    padding-left:20px;
+}
+.hotelhr{
+    width:60px;
+}
+#hotelincityspan{
+    margin-top: 50px;
+    display: block;
+}
+.afterhotelelment
+{
+    display:inline;
 }
