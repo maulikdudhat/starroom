@@ -19,7 +19,7 @@ body {
 }
 .signup{
     width:360px;
-    height:650px;
+    height:360px;
     background:	rgba(255, 240, 240, 0.8);
     backface-visibility:inherit;
     border-radius:10px;
